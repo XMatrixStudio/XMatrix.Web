@@ -2,13 +2,16 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 
 import * as serviceWorker from '../../serviceWorker'
-import NavBar from './components/navbar/navbar'
+import Navbar from './components/navbar/navbar'
 import './index.css'
+import { BrowserRouter } from 'react-router-dom'
 
 ReactDOM.render(
-  <div className="App">
-    <NavBar />
-  </div>,
+  <BrowserRouter>
+    <div className="App">
+      <Navbar />
+    </div>
+  </BrowserRouter>,
   document.getElementById('root')
 )
 
