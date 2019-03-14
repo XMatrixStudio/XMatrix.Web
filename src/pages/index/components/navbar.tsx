@@ -3,7 +3,7 @@ import { observer } from 'mobx-react'
 import React, { Component } from 'react'
 import { NavLink, withRouter } from 'react-router-dom'
 
-import logo from '../../../../assets/logo.svg'
+import logo from '../../../assets/logo.svg'
 import './navbar.less'
 
 @observer
